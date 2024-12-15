@@ -7,6 +7,7 @@ It provides a single, centralized system for managing content, features, and set
 ---
 ### Language Manager
 ![Language Manager](https://github.com/VirtualVisions/Verbatim-Documentation/blob/main/Images/LanguageManager.png)
+![Language Manager](https://github.com/VirtualVisions/Verbatim-Documentation/blob/main/Images/LocalizationManagerComponent.png)
 
 The "Verbatim Language Manager" is the main prefab that will add localization to your world.
 It comes with the data object (By default named "Example Localization Data", and can be swapped out at any time), as well as the language selection panel.
