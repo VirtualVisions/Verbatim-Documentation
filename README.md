@@ -30,6 +30,7 @@ The Options menu has various actions that you can perform:
 
 | Option | Description |
 | ----------- | ----------- |
+| Documentation | Opens this page of documentation on GitHub. |
 | Create new Data | Creates a new Localization Data object and automatically selects it. |
 | Find Data in Scene | Finds any Localization Manager in the scene and selects the Data it is currently using. |
 | Set Manager Data to selected | Sets the scene's Localization Manager's Data to the one currently selected. |
