@@ -1,5 +1,5 @@
 **Verbatim License Agreement**
-License Version 1.0.0 - 1/1/2025
+License Version 1.0.1 - 1/1/2025
 
 This License Agreement ("Agreement") governs the use, distribution, and modification of the Verbatim digital asset package ("Verbatim") developed for Unity Projects and the VRChat platform. By purchasing, downloading, or using Verbatim, you (the "Licensee") agree to comply with the terms outlined herein. If you do not agree, you may not use or distribute Verbatim.
 
@@ -7,9 +7,13 @@ This License Agreement ("Agreement") governs the use, distribution, and modifica
 
 ### 1. Definitions
 1.1. **Base Package and Features**: Refers to all components of Verbatim, including scripts, assets, prefabs, and tools, except the "Example Localization Data" object.
+
 1.2. **Redistributable Components**: Custom scripts, JSON/CSS files, addons, and prefabs created by the Licensee using Verbatim’s features.
+
 1.3. **Sources**: Authorized platforms for acquiring Verbatim, currently Patreon, Booth, and Gumroad.
+
 1.4. **Team License**: A single license purchase applicable to a team working on a closed-source project.
+
 1.5. **Closed-Source Project**: A project where Verbatim and its raw components are not exposed to end-users in an accessible or modifiable format.
 
 ---
