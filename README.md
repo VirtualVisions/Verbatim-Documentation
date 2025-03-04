@@ -88,3 +88,5 @@ Making your own Localization Component is as simple as inheriting from **"BaseLo
 Two attributes have been added for selecting languages and keys in the inspector: **[VerbatimLanguage]** and **[VerbatimKey]** respectively.
 These custom editors can be disabled from the Verbatim Window's options menu.
 The selection menu can be more difficult to use with very large amounts of keys depending on your screen size, so the option to disable them was added.
+
+A scripting define symbol "VERBATIM" is included in any projects implementing Verbatim Localization, so tools utilizing Verbatim-specific code can have that code disabled for projects that do not include it.
