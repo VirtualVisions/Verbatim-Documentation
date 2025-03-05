@@ -57,6 +57,9 @@ There are six different variable types that can be stored as keys:
 Keys have a value for each language, as well as a Fallback value.
 If a value is not provided or is empty for a given language, it will instead use the Fallback value.
 
+NOTICE: An example file "Example Localization Data" is provided as a demo. DO NOT USE THIS ASSET.
+Updating the package to future versions will overwrite this example file, causing you to lose any customizations you have made to this asset.
+
 ---
 
 ### Localization Component
