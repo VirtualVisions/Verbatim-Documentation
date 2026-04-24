@@ -1,4 +1,5 @@
 # Verbatim Localization
+
 ![Verbatim Icon](https://github.com/VirtualVisions/Verbatim-Documentation/blob/main/Images/ReadMe%20Banner.png)
 
 [License](https://github.com/VirtualVisions/Verbatim-Documentation/blob/main/license.md)
@@ -7,7 +8,9 @@ Verbatim is a localization tool for VRChat worlds and the content in them.
 It provides a single, centralized system for managing content, features, and settings for VRChat worlds based on the user's preferred language.
 
 ---
+
 ### Language Manager
+
 ![Language Manager](https://github.com/VirtualVisions/Verbatim-Documentation/blob/main/Images/LanguageManager.png)
 ![Language Manager](https://github.com/VirtualVisions/Verbatim-Documentation/blob/main/Images/LocalizationManagerComponent.png)
 
@@ -20,6 +23,7 @@ You can find it at **Packages -> Verbatim Localization -> Runtime -> Prefabs**.
 ---
 
 ### Verbatim Window
+
 ![Verbatim Window](https://github.com/VirtualVisions/Verbatim-Documentation/blob/main/Images/VerbatimWindow.png)
 
 The Verbatim Window is how you will be interfacing with your localization data.
@@ -28,31 +32,33 @@ To get started, go to the **Options** menu on the top right and click **"Create 
 
 The Options menu has various actions that you can perform:
 
-| Option | Description |
-| ----------- | ----------- |
-| Documentation | Opens this page of documentation on GitHub. |
-| Create new Data | Creates a new Localization Data object and automatically selects it. |
-| Find Data in Scene | Finds any Localization Manager in the scene and selects the Data it is currently using. |
-| Set Manager Data to selected | Sets the scene's Localization Manager's Data to the one currently selected. |
-| Use Language Dropdowns | Toggles whether the language fields should use the custom dropdown field. |
-| Use Key Dropdowns | Toggles whether the language fields should use the custom dropdown field. |
-| Add VRChat languages | Adds all languages currently supported by VRChat. |
-| Sort Languages | Sorts all languages alphabetically. |
-| Json > Import from File | Imports StringKey values from a provided Json file. |
-| Json > Export to File | Exports StringKey values to a Json file. |
-| CSV > Import from File | Imports StringKey values from a provided CSV file. |
-| CSV > Export to File | Exports StringKey values to a CSV file. |
+| Option                       | Description                                                                             |
+| ---------------------------- | --------------------------------------------------------------------------------------- |
+| Documentation                | Opens this page of documentation on GitHub.                                             |
+| Create new Data              | Creates a new Localization Data object and automatically selects it.                    |
+| Find Data in Scene           | Finds any Localization Manager in the scene and selects the Data it is currently using. |
+| Set Manager Data to selected | Sets the scene's Localization Manager's Data to the one currently selected.             |
+| Use Language Dropdowns       | Toggles whether the language fields should use the custom dropdown field.               |
+| Use Key Dropdowns            | Toggles whether the language fields should use the custom dropdown field.               |
+| Add VRChat languages         | Adds all languages currently supported by VRChat.                                       |
+| Sort Languages               | Sorts all languages alphabetically.                                                     |
+| Json > Import from File      | Imports StringKey values from a provided Json file.                                     |
+| Json > Export to File        | Exports StringKey values to a Json file.                                                |
+| CSV > Import from File       | Imports StringKey values from a provided CSV file.                                      |
+| CSV > Export to File         | Exports StringKey values to a CSV file.                                                 |
 
 **"Keys"** are what you select from when localizing your data.
 Each key has a name, which will be what all localization components reference.
 Additions and other changes to the provided languages are automatically applied to all keys.
 There are six different variable types that can be stored as keys:
+
 - Strings
 - Sprites
 - Textures
 - Materials
 - Urls
 - Audio
+- TextAssets
 
 Keys have a value for each language, as well as a Fallback value.
 If a value is not provided or is empty for a given language, it will instead use the Fallback value.
@@ -63,26 +69,28 @@ Updating the package to future versions will overwrite this example file, causin
 ---
 
 ### Localization Component
+
 ![Verbatim Window](https://github.com/VirtualVisions/Verbatim-Documentation/blob/main/Images/LocalizationComponents.png)
 
 These components are the primary ways you will be using Verbatim.
 Each one allows you to select a key that will affect it's corrosponding component.
 You also have the toggle **"Enable Only For Selected Language"**, which will disable/clear the component when the selected language below is not the actively selected language.
 
-| Component | Description |
-| ----------- | ----------- |
-| Verbatim Audio | Swaps audio clips on an Audio Source. Can be set to play on language change. |
-| Verbatim GameObject | Toggles the GameObject on only for a selected language. |
-| Verbatim RawImage | Swaps a texture in a RawImage UI component. |
-| Verbatim Renderer | Swaps materials on a renderer. An array of keys is provided for renderers that require more than one material. |
-| Verbatim Sprite | Swaps a sprite on an Image UI component. |
-| Verbatim Text | Changes the text on a Unity Text component to a given string. |
-| Verbatim TextMeshPro | Changes the text on a TextMeshPro component to a given string. |
-| Verbatim TextMeshPro (UI) | Changes the text on a TextMeshPro UGUI component to a given string. |
-| Verbatim Video Player - AVPro | Swaps urls on an AVPro Video Player. Can be set to play on language change. |
-| Verbatim Video Player - Unity | Swaps urls on a Unity Video Player. Can be set to play on language change. |
+| Component                     | Description                                                                                                    |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Verbatim Audio                | Swaps audio clips on an Audio Source. Can be set to play on language change.                                   |
+| Verbatim GameObject           | Toggles the GameObject on only for a selected language.                                                        |
+| Verbatim RawImage             | Swaps a texture in a RawImage UI component.                                                                    |
+| Verbatim Renderer             | Swaps materials on a renderer. An array of keys is provided for renderers that require more than one material. |
+| Verbatim Sprite               | Swaps a sprite on an Image UI component.                                                                       |
+| Verbatim Text                 | Changes the text on a Unity Text component to a given string.                                                  |
+| Verbatim TextMeshPro          | Changes the text on a TextMeshPro component to a given string.                                                 |
+| Verbatim TextMeshPro (UI)     | Changes the text on a TextMeshPro UGUI component to a given string.                                            |
+| Verbatim Video Player - AVPro | Swaps urls on an AVPro Video Player. Can be set to play on language change.                                    |
+| Verbatim Video Player - Unity | Swaps urls on a Unity Video Player. Can be set to play on language change.                                     |
 
 ---
+
 ### Custom Implementation
 
 Lots of tools are provided to let you expand off of for your own implementation.
