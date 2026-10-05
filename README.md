@@ -83,9 +83,9 @@ You also have the toggle **"Enable Only For Selected Language"**, which will dis
 | Verbatim RawImage             | Swaps a texture in a RawImage UI component.                                                                    |
 | Verbatim Renderer             | Swaps materials on a renderer. An array of keys is provided for renderers that require more than one material. |
 | Verbatim Sprite               | Swaps a sprite on an Image UI component.                                                                       |
-| Verbatim Text                 | Changes the text on a Unity Text component to a given string.                                                  |
 | Verbatim Interact             | Changes the text on a targeted UdonBehaviour's interact hover text to a given string.                          |
 | Verbatim Pickup               | Changes the "Interaction" and "Use" text on an attached VRCPickup component.                                   |
+| Verbatim Text                 | Changes the text on a Unity Text component to a given string.                                                  |
 | Verbatim TextMeshPro          | Changes the text on a TextMeshPro component to a given string.                                                 |
 | Verbatim TextMeshPro (UI)     | Changes the text on a TextMeshPro UGUI component to a given string.                                            |
 | Verbatim Video Player - AVPro | Swaps urls on an AVPro Video Player. Can be set to play on language change.                                    |
